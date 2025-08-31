@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Input</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body style="background-image: url(./Image/bg\ image1.jpg);">
+    <div class="container">
+        <h2>Type Your Message</h2>
+        <textarea id="message" placeholder="Type your message..."></textarea>
+        <div class="counter" id="charCounter">0/200 characters</div>
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <div class="warning" id="warning">You have exceeded the 200 character limit!</div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
